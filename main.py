@@ -5,7 +5,7 @@ from discord.ext import commands
 from flask import Flask
 from threading import Thread
 import random  # Pour les réponses aléatoires
-x=0
+def x=0
 while x=0
     # Définition des intents
     intents = discord.Intents.default()
@@ -99,3 +99,10 @@ while x=0
     if __name__ == "__main__":
         asyncio.run(main())
     # définirion turne off (à programer)
+    @bot.event
+    async def on_message(message):
+        if message.content == "stop:bot"
+            if  message.author == client.Botdev
+                x=1
+            if  message.author !== client.Botdev
+                await message.channel.send("vous n'aviez pas les autorisation requise pour cette action")
