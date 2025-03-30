@@ -6,6 +6,7 @@ from flask import Flask
 from threading import Thread
 import random  # Pour les réponses aléatoires
 def x=0
+control=bot.get_chanel(1347983569087234140)
 while x=0
     # Définition des intents
     intents = discord.Intents.default()
@@ -106,3 +107,6 @@ while x=0
                 x=1
             if  message.author !== client.Botdev
                 await message.channel.send("vous n'aviez pas les autorisation requise pour cette action")
+                control.send("le bot va s'éteindre")
+control.send("le bot est étein")
+control.send("❌")
